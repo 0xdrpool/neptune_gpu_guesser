@@ -48,7 +48,11 @@
    ```bash
    ./run_guesser.sh
    ```
-
+6. **View Mining Logs:**
+   ![image](https://github.com/user-attachments/assets/920b8afe-5a15-49d4-8fea-8249c09d9d1e)
+   ![image](https://github.com/user-attachments/assets/44591ca0-ace7-49bc-a56c-aec35a3ede88)
+   - *Received new proposal, start job*: GPU Mining Started
+   - *Received new block, waiting for new proposal. stop job*: GPU Mining Paused (Energy Saving Mode)
 ---
 
 ### **⚡ Setup on HiveOS**  
