@@ -38,7 +38,7 @@
 3. **Extract & Prepare**  
    ```bash
    tar -zxvf ubuntu-dr_neptune_prover-x.x.x.tar.gz
-   cd dr_neptune_prover && chmod +x inner_guesser.sh run_guesser.sh dr_neptune_prover
+   cd dr_neptune_prover && chmod +x inner_guesser.sh run_guesser.sh stop_guesser.sh dr_neptune_prover
    ```
 
 4. **Configure Your Account**  
