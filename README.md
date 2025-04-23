@@ -33,7 +33,7 @@
      ```
 
 2. **Download the Miner**  
-   - Get the latest `ubuntu-dr_neptune_prover-x.x.x.tar.gz` from **[Releases](https://github.com/0xdrpool/neptune_gpu_guesser/releases/latest)**  (eg:https://github.com/0xdrpool/neptune_gpu_guesser/releases/download/v1.0.0/ubuntu-dr_neptune_prover-1.0.0.tar.gz)
+   - Get the latest `ubuntu-dr_neptune_prover-x.x.x.tar.gz` from **[Releases](https://github.com/0xdrpool/neptune_gpu_guesser/releases/latest)**  (eg:https://github.com/0xdrpool/neptune_gpu_guesser/releases/download/v1.0.1/ubuntu-dr_neptune_prover-1.0.1.tar.gz)
 
 3. **Extract & Prepare**  
    ```bash
@@ -53,6 +53,10 @@
    ![image](https://github.com/user-attachments/assets/44591ca0-ace7-49bc-a56c-aec35a3ede88)
    - *Received new proposal, start job*: GPU Mining Started
    - *Received new block, waiting for new proposal. stop job*: GPU Mining Paused (Energy Saving Mode)
+7. **Stop Mining**
+   ```bash
+   ./stop_guesser.sh
+   ```
 ---
 
 ### **⚡ Setup on HiveOS**  
@@ -62,7 +66,7 @@
 
 1. **Miner Name:** `nptprover`  
 2. **Installation URL:**  
-   - Latest version (e.g., `https://github.com/0xdrpool/neptune_gpu_guesser/releases/download/v1.0.0/nptprover-1.0.0.tar.gz`)  
+   - Latest version (e.g., `https://github.com/0xdrpool/neptune_gpu_guesser/releases/download/v1.0.1/nptprover-1.0.1.tar.gz`)  
 3. **Hash Algorithm:** `--`  
 4. **Wallet & Worker Template:**  
    - Format: `%WAL%.%WORKER_NAME%`  
