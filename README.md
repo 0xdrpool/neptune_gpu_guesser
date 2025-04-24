@@ -21,6 +21,10 @@
 ./dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 -w drpoolaccount.xxx
 ```
 
+### **4️⃣ Register a DRPool Account​**  
+
+[drpool register](https://drpool.io/user/register)
+
 ---
 
 ### **⚙️ Setup on Ubuntu (v18.04+)**  
@@ -33,7 +37,7 @@
      ```
 
 2. **Download the Miner**  
-   - Get the latest `ubuntu-dr_neptune_prover-x.x.x.tar.gz` from **[Releases](https://github.com/0xdrpool/neptune_gpu_guesser/blob/main/download.md)**  (ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/ubuntu-dr_neptune_prover-1.0.1.tar.gz)
+   - Get the latest `ubuntu-dr_neptune_prover-x.x.x.tar.gz` from **[Download](https://github.com/0xdrpool/neptune_gpu_guesser/blob/main/download.md)**  (ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/ubuntu-dr_neptune_prover-1.0.1.tar.gz)
 
 3. **Extract & Prepare**  
    ```bash
@@ -42,7 +46,7 @@
    ```
 
 4. **Configure Your Account**  
-   - Edit `inner_guesser.sh` and update your **drpool account name**.  
+   - Edit `inner_guesser.sh` and update your **[drpool](https://drpool.io) account name**.  
 
 5. **Start Mining**  
    ```bash
