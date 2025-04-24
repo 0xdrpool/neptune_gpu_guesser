@@ -74,7 +74,7 @@
 3. **Hash Algorithm:** `--`  
 4. **Wallet & Worker Template:**  
    - Format: `%WAL%.%WORKER_NAME%`  
-   - ⚠️ **Important:** Use your **drpool account name** as the wallet.  
+   - ⚠️ **Important:** Use your **[drpool](https://drpool.io) account name** as the wallet.  
 5. Real-time Mining Displa
    <img width="1239" alt="image" src="https://github.com/user-attachments/assets/1fc66ae6-5908-4aef-b12a-a5f62b4fac07" />
 
