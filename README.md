@@ -18,7 +18,7 @@
 
 #### **Basic Command**  
 ```bash
-./dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 -w drpoolaccount.xxx
+./dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 -w drpoolaccount.xxx -g 0
 ```
 
 ### **4️⃣ Register a DRPool Account​**  
