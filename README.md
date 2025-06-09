@@ -109,6 +109,9 @@
 
    **Neptune + Tari**
    - version >=1.0.6
+
+     <img width="675" alt="image" src="https://github.com/user-attachments/assets/bcaf7a20-7363-443e-b73d-b952ddb9b8aa" />
+
    - Custom configuration->Extra config arguments:`--extra "srbminer_custom_bin;--algorithm;sha3x;--pool;tari.luckypool.io:6118;--wallet;<tariaddress>.<devicename>"`
    - tariaddress: Replace with the miner's own Tari wallet address, [Statistics Overview](https://tari.luckypool.io/miner-stats#workers)  
    - devicename: Replace with the miner's own device name
