@@ -114,8 +114,9 @@
 
 
    - Custom configuration->Extra config arguments:`--extra 'srbminer_custom_bin;--algorithm;sha3x;--pool;tari.luckypool.io:6118;--wallet;<tariaddress>.<devicename>'`
-   - tariaddress: Replace with the miner's own Tari wallet address, [Statistics Overview](https://tari.luckypool.io/miner-stats#workers)  
-   - devicename: Replace with the miner's own device name
+   - `tariaddress`: Replace with the miner's own Tari wallet address, [Statistics Overview](https://tari.luckypool.io/miner-stats#workers)  
+   - `devicename`: Replace with the miner's own device name
+   - `-g 0`: Specify multiple times to use multiple GPUs(eg: -g 0,1,2,3)
 ---
 
 ### **🚀 Start Mining Now!**  
