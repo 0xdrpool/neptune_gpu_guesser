@@ -2,6 +2,7 @@
 
 [Neptune GPU Guesser](https://github.com/0xdrpool/neptune_gpu_guesser) is a high-performance **GPU miner** for the [Neptune Crypto](https://neptune.cash) proof-of-work algorithm, optimized for **NVIDIA GPUs** to maximize mining efficiency.  
 
+[Dual Mining](Dual_Mining.md)
 ---
 
 ## **📌 GPU Mining Tutorial**  
@@ -61,34 +62,7 @@
    ```bash
    ./stop_guesser.sh
    ```
-8. **Dual Mining**
-
-   **Neptune + Tari**
-   - version >=1.0.6
-   - Modify the `inner_guesser.sh` file
-   ```sh
-   #!/bin/bash
-
-   # set your own drpool accountname
-   accountname="accountname.miner001"
    
-   pids=$(ps -ef | grep dr_neptune_prover | grep -v grep | awk '{print $2}')
-   if [ -n "$pids" ]; then
-       echo "$pids" | xargs kill
-       sleep 5
-   fi
-   
-   while true; do
-       target=$(ps aux | grep dr_neptune_prover | grep -v grep)
-       if [ -z "$target" ]; then
-           ./dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 --worker $accountname --extra "srbminer_custom_bin;--algorithm;sha3x;--pool;tari.luckypool.io:6118;--wallet;<tariaddress>.<devicename>"
-           sleep 5
-       fi
-       sleep 60
-   done
-   ```
-   - tariaddress: Replace with the miner's own Tari wallet address, [Statistics Overview](https://tari.luckypool.io/miner-stats#workers)  
-   - devicename: Replace with the miner's own device name
 ---
 
 ### **⚡ Setup on HiveOS**  
@@ -105,19 +79,7 @@
    - ⚠️ **Important:** Use your **[drpool](https://drpool.io) account name** as the wallet.  
 5. Real-time Mining Displa
    <img width="1239" alt="image" src="https://github.com/user-attachments/assets/1fc66ae6-5908-4aef-b12a-a5f62b4fac07" />
-6. **Dual Mining**
 
-   **Neptune + Tari**
-   - version >=1.0.6
-
-     <img width="683" alt="image" src="https://github.com/user-attachments/assets/f7ae2648-1681-49b2-bc5c-42b4e862bef4" />
-
-
-   - Custom configuration->Extra config arguments:`--extra 'srbminer_custom_bin;--algorithm;sha3x;--pool;tari.luckypool.io:6118;--wallet;<tariaddress>.<devicename>'`
-   - `tariaddress`: Replace with the miner's own Tari wallet address, [Statistics Overview](https://tari.luckypool.io/miner-stats#workers)  
-   - `devicename`: Replace with the miner's own device name
-   - `-g 0`: Specify multiple times to use multiple GPUs(eg: -g 0,1,2,3)
----
 
 ### **🚀 Start Mining Now!**  
 For support and updates, visit the **[GitHub Repository](https://github.com/0xdrpool/neptune_gpu_guesser)**.  
