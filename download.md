@@ -3,6 +3,7 @@
 ## V1.0.9
 
 fix 3080 Dual mining
+Support Dual Mining NPT + ONEZEROMINER
 
 **NPT**
 - ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/ubuntu-dr_neptune_prover-1.0.9.tar.gz
