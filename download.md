@@ -2,7 +2,7 @@
 
 ## V1.0.9
 
-fix 3080 Dual mining
+fix 3080 Dual mining   
 Support Dual Mining NPT + ONEZEROMINER
 
 **NPT**
