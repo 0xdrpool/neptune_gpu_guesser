@@ -21,7 +21,7 @@ For any runtime issues, communicate in the community.
 
 #### Setup on Ubuntu
 - version >=1.0.6
-   - ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/tari/ubuntu-dr_neptune_prover-1.0.8.tar.gz
+   - ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/tari/ubuntu-dr_neptune_prover-1.0.9.tar.gz
 - Modify the `inner_guesser.sh` file
    ```sh
    #!/bin/bash
@@ -50,7 +50,7 @@ For any runtime issues, communicate in the community.
 
 #### Setup on HiveOS
 - version >=1.0.6
-   - hiveos: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/tari/nptprover-1.0.8.tar.gz
+   - hiveos: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/tari/nptprover-1.0.9.tar.gz
     ![alt text](image.png)
 - Custom configuration->Extra config arguments:`--extra 'srbminer_custom_bin;--algorithm;sha3x;--pool;tari.luckypool.io:6118;--wallet;<tariaddress>.<devicename>'`
    - `srbminer_custom_bin`: Software name (non-editable)​​
@@ -67,7 +67,7 @@ GitHub: https://github.com/rigelminer/rigel
 
 #### Setup on Ubuntu
 - version >=1.0.8
-   - ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/rigel/ubuntu-dr_neptune_prover-1.0.8.tar.gz
+   - ubuntu: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/rigel/ubuntu-dr_neptune_prover-1.0.9.tar.gz
 - Modify the `inner_guesser.sh` file
    ```sh
    #!/bin/bash
@@ -95,7 +95,7 @@ GitHub: https://github.com/rigelminer/rigel
 
 #### Setup on HiveOS
 - version >=1.0.8
-   - hiveos: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/rigel/nptprover-1.0.8.tar.gz
+   - hiveos: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/rigel/nptprover-1.0.9.tar.gz
 - Custom configuration->Extra config arguments:`--extra 'rigel;<>;<>;<>'`
    - `rigel`: Software name (non-editable)​​
    - [extra configuration](#extra-configuration)
@@ -150,7 +150,7 @@ GitHub: https://github.com/OneZeroMiner/onezerominer (release 1.4.4)
    - [extra configuration](#extra-configuration)
 
 #### Setup on HiveOS
-- version >=1.0.8
+- version >=1.0.9
    - hiveos: https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/onezero/nptprover-1.0.9.tar.gz
 - Custom configuration->Extra config arguments:`--extra 'onezerominer;<>;<>;<>'`
    - `rigel`: Software name (non-editable)​​
