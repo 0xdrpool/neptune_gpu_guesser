@@ -8,7 +8,7 @@ Since third-party software is involved, Drpool cannot guarantee its stable opera
 For any runtime issues, communicate in the community.
 
 [Neptune + SRBMiner](#neptune--srbminer):NPT+XTM   
-[Neptune + RigelMiner](#neptune--rigelminer):NTP+(ABEL/ALPH/ERG/ETC/.../QUAI)
+[Neptune + RigelMiner](#neptune--rigelminer):NTP+(ABEL/ALPH/ERG/ETC/.../QUAI)  
 [Neptune + ONEZEROMiner](#neptune--onezerominer):NTP+(dynex/xelis/../zil)
 
 ## Neptune + SRBMiner
